@@ -702,7 +702,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"Not for use less than group")
             elif msg.text in ["bot cancel","Bot cancel"]:
-            if msg.from_ in admin:
+             if msg.from_ in admin:
                 if msg.toType == 2:
                     G = ki.getGroup(msg.to)
                     if G.invitee is not None:
